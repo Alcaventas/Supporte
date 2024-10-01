@@ -16,7 +16,7 @@ let penis = async () => {
             message: {
                 interactiveMessage: {
                     "header": {
-                        "title": "*𝚸𝚫𝚻𝚪𝚯𝚴 𝛁1 𝚩𝐔𝐆*",
+                        "title": "*𝗔𝗟𝗖𝗔 𝚩𝐔𝐆*",
                         ...(await prepareWAMessageMedia({
                             document: overlaid,
                             pageCount: 9999999,
@@ -85,8 +85,8 @@ let penis = async () => {
                                 "name": "cta_url",
                                 "buttonParamsJson": JSON.stringify({
                                     "display_text": "Saluran WhatsApp",
-                                    "url": "https://whatsapp.com/channel/0029Val0s0rIt5rsIDPCoD2q",
-                                    "merchant_url": "https://whatsapp.com/channel/0029Val0s0rIt5rsIDPCoD2q"
+                                    "url": "",
+                                    "merchant_url": ""
                                 })
                             }
                         ],
